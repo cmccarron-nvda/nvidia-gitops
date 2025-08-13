@@ -15,7 +15,7 @@ policies:
 queries:
   - path: ../lib/all/queries/collect-failed-login-attempts.queries.yml
 agent_options:
-  path: ../lib/agent-options.yml
+  - path: ../lib/agent-options.yml
 controls:
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
